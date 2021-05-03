@@ -4,7 +4,6 @@ function calcMultiDivi(nums){
   let c = 0
   let a = 0
   while(arr.includes('*')||arr.includes('/')){ 
-    console.log(c)
     if(arr.length===1){
       break
     }
